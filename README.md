@@ -2,12 +2,19 @@
 RNA-seq  processing pipelines
 
 #!/bin/bash
+
 #SBATCH --partition=normal
+
 #SBATCH -t 6:00:00
+
 #SBATCH --array=0-5
+
 #SBATCH --mem=10G
+
 #SBATCH --cpus-per-task=8
+
 #SBATCH --job-name=Hisat2_stringtie
+
 #SBATCH --nodes=1
 
 libraries=(B73_anther_rep1_SRR650382 B73_meiocyte_rep1_SRR650383 B73_seedling_rep1_SRR650381 B73_anther_rep2_SRR650379 B73_meiocyte_rep2_SRR650380 B73_seedling_rep2_SRR650378)
