@@ -1,7 +1,7 @@
 # RNA-seq
 RNA-seq processing pipelines
 
-@The first way is to use Kallisto@
+@The first way is to use Hisat2@
 _________________________________________
 
 #!/bin/bash
